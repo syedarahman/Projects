@@ -1,0 +1,48 @@
+body {
+	background-image: url("flowers1.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+#timeInCenter {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 100px;
+	font-family: "Covered By Your Grace", "Handlee", "Century Gothic", "Verdana";
+	color: #FBF1EF;
+}
+.footer { 
+    position: fixed;     
+    text-align: center;    
+    bottom: 10px; 
+    width: 100%;
+    font-family: "Century Gothic", "Verdana";
+	font-size: 14px; 
+	color: #FBF1EF;
+}  
+@media only screen and (max-width: 700px) {
+    #timeInCenter {
+	    text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 50px;
+		font-family: "Covered By Your Grace", "Century Gothic", "Verdana";
+    }
+}
+@media only screen and (max-height: 500px) {
+    #timeInCenter {
+	    text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 50px;
+		font-family: "Covered By Your Grace", "Century Gothic", "Verdana";
+    }
+}
